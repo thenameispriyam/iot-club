@@ -170,6 +170,7 @@ hr {
     text-align: center;
     opacity: 0.9;
     overflow: hidden;
+    background-color: whitesmoke;
 }
 
 .pcard:hover {
