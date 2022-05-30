@@ -407,3 +407,19 @@ footer p {
 padding : 0 ;
 }
 }
+
+
+
+/* PROJECTS CSS */
+
+.hero .pbackground { 
+    background-size: cover ; 
+    position: absolute ; 
+    top : 0 ; 
+    left : 0 ; 
+    height: 100%;
+    width: 100% ;
+    z-index: -1 ;
+    background-image: url(../imgs/iotmain.jpg); 
+    background: linear-gradient(to top, #ffffff 0%, #035 100%);
+}
