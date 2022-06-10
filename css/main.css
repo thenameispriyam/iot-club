@@ -741,6 +741,10 @@ footer p {
         margin-bottom: 50px;
     }
 
+    .hero .content h4 {
+        margin-top: 50px;
+    }
+
 }
 
 /* --------------- MEDIA QUERIES END ---------------- */
