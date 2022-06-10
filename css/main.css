@@ -364,7 +364,7 @@ footer p {
 /* Fields Section CSS Start */
 
 .field {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 50%, rgb(200, 200, 200) 150%);
+    background: linear-gradient(180deg, rgba(221, 228, 231, 0.8) 50%, rgb(255, 255, 255) 150%);
     width: 250px;
     margin-top: 10px;
     height: 290px;
@@ -414,6 +414,10 @@ footer p {
     font-weight: 600;
     color: rgb(115, 115, 115);
     font-style: italic;
+}
+
+.fieldh2 {
+    margin-bottom: 20px;
 }
 
 .iotfields .grid li {
