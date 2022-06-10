@@ -678,18 +678,56 @@ footer p {
 
 
     .field {
+        box-shadow: 0 1px 4px 0 rgb(99, 99, 99);
         width: 150px;
-        height: 340px;
+        height: 280px;
+        transform: scale(1);
     }
-
-    .team {
-        width: 150px;
-        height: 340px;
+    .fieldimg img {
+        width: 180px;
     }
 
     .fac {
+        box-shadow: 0 1px 4px 0 rgb(99, 99, 99);
         width: 150px;
-        height: 340px;
+        height: 250px;
+        transform: scale(1);
+    }
+    .facname {
+        padding: 0 5px 0 5px;
+    }
+    .facpos {
+        padding: 0 5px 0 5px;
+    }
+    .facimg {
+        height: 120px;
+    }
+    .facimg img {
+        width: 80px;
+    }
+
+
+    .team {
+        box-shadow: 0 1px 4px 0 rgb(99, 99, 99);
+        width: 150px;
+        height: 230px;
+        transform: scale(1);
+        margin: 10px;
+    }
+    .team i {
+        width: 20px;
+    }
+    .team .icons {
+        display: flex;
+        border-radius: 10%;
+        width: 140px;
+        justify-content: center;
+    }
+    .teamimg img {
+        width: 80px;
+    }
+    .teamimg {
+        height: 120px;
     }
 
     /* Mobile CSS Ends */
@@ -697,6 +735,10 @@ footer p {
 
     .packages .grid li {
         padding: 0;
+    }
+
+    .packages .devh3 {
+        margin-bottom: 50px;
     }
 
 }
